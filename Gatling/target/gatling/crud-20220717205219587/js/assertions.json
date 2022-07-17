@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.CRUD",
+  "simulationId": "crud",
+  "start": 1658091139587,
+  "description": "sdf",
+  "scenarios": ["CRUD"],
+  "assertions": [
+
+  ]
+}

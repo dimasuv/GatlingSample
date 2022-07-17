@@ -1,0 +1,8 @@
+RUN	com.gatling.tests.CRUD	crud	1658083670700	sdf	3.6.1
+USER	CRUD	START	1658083671365
+REQUEST		Get Tokken	1658083671395	1658083671417	OK	 
+ERROR	request_1: Failed to build request: Resource com/gatling/tests/crud/0001_request.json not found 	1658083673436
+REQUEST		request_2	1658083676442	1658083676449	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 404
+ERROR	request_3: Failed to build request: Resource com/gatling/tests/crud/0003_request.json not found 	1658083678473
+REQUEST		request_4	1658083680478	1658083680485	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 403
+USER	CRUD	END	1658083680488
